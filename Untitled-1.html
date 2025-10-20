@@ -1,0 +1,58 @@
+   <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mango shop</title>
+    <style>
+        html, body{ height:100%; margin:0; }
+        body{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-direction:column;
+            text-align:center;
+            font-family: Arial, sans-serif;
+            padding:20px;
+            box-sizing:border-box;
+        }
+        img{ max-width:80%; height:auto; }
+
+        .line {
+            width: 90%;
+            height: 3px;
+            background: #000000;
+            transform-origin: right center; 
+            transform: scaleX(0);
+            animation: draw 1.5s ease forwards;
+            margin-top: 16px;
+        }
+        @keyframes draw {
+            from { transform: scaleX(0); }
+            to   { transform: scaleX(1); }
+        }
+
+        .container {
+            width:100%;
+            display:flex;
+            align-items:center;
+            flex-direction:column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><em>Mango shop</em></h1>
+        <div class="line" aria-hidden="true"></div>
+    <img src="https://ireland.apollo.olxcdn.com/v1/files/mu9lb5xmfitr-UA/image;s=1000x700" alt="Моя анимация">
+    <h2>Описание товара:</h2>
+    <p>Gray jeans Mango с высокой посадкой, размер M. Отличное состояние, минимальные следы носки. Идеально подходят для повседневной носки и создания стильных образов. </p>
+        <h1>Цена: 35,87 Долларов.</h1>
+        <a href="P3.html" target="_blank">Page2</a> <br>
+
+
+
+    </div>
+
+</body>
+</html>
